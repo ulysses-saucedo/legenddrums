@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    gap: 20px;
+    grid-gap: 20px;  
+}
+
+.logo {
+    width: 100px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    grid-gap: 10px;
+    list-style-type: none;
+    align-items: center;
+    height: 100%;
+}
+
+.menu_item {
+    margin-inline: 10px;
+}
+
+.menu_item a {
+    color: grey;
+    text-decoration: none;
+}
+
+.menu_item.active a {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    align-self: flex-end;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+
+   
+}
+
+/* series */
+
+.main {
+    padding: 30px;
+}
+
+.bata1 {
+    width: 20%;
+    padding: 10px;
+    background-color: grey;
+    display: inline-block;
+    margin-inline: 2%;
+}
+
+.bata1_imagen {
+    width: 100%;
+}
+
+.bata1_titulo {
+    font-size: 25px;
+}
+
+.bata1_descripcion {
+    font-size: 15px;
+}
+
+.bata1_imagen {
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.bata1_titulo {
+    margin-bottom: 10px;
+}
+
+.bata1_descripcion {
+    margin-bottom: 10px;
+}
+
+/* */
+
+.wpp{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 100px;
+}
+
+/* index */
+
+.imagenprincipal {
+    height: 80vh;
+    background-image: url(../img/lengend_index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagenprincipal h2 {
+    color: grey;
+    background-color: rgba(0, 0, 0, 0.619);
+    padding-inline: 20px;
+    
+}
+
+.imagenprincipal2 {
+    height: 80vh;
+    background-image: url(../img/paiste_index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagenprincipal2 h2 {
+    color: grey;
+    background-color: rgba(0, 0, 0, 0.619);
+    padding-inline: 20px;
+    
+}
+
+/* platillos */
+
+.filapst {
+    background-color: grey;
+    padding: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    grid-gap: 20px;
+    align-items: center;
+    
+}
+
+.imagenpst {
+    width: 250px;
+}
+
+/* nosotros */
+
+
+/*contacto*/
+
+
