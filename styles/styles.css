@@ -4,11 +4,23 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: aqua;
+}
 header {
     background-color: black;
+    width: 100%;
     display: flex;
     gap: 20px;
-    grid-gap: 20px;  
+    grid-gap: 20px;
+    position: fixed;  
 }
 
 .logo {
@@ -48,47 +60,9 @@ footer {
     height: 50px;
     width: 100%;
     text-align: center;
+    margin-top: auto;
 
    
-}
-
-/* series */
-
-.main {
-    padding: 30px;
-}
-
-.bata1 {
-    width: 20%;
-    padding: 10px;
-    background-color: grey;
-    display: inline-block;
-    margin-inline: 2%;
-}
-
-.bata1_imagen {
-    width: 100%;
-}
-
-.bata1_titulo {
-    font-size: 25px;
-}
-
-.bata1_descripcion {
-    font-size: 15px;
-}
-
-.bata1_imagen {
-    margin-bottom: 10px;
-    padding-top: 10px;
-}
-
-.bata1_titulo {
-    margin-bottom: 10px;
-}
-
-.bata1_descripcion {
-    margin-bottom: 10px;
 }
 
 /* */
@@ -98,6 +72,43 @@ footer {
     bottom: 10px;
     left: 10px;
     width: 100px;
+}
+
+
+/* series */
+
+.contenedor {
+    width: 800px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "caja1 caja2"
+    "caja3 caja4"
+    "caja5 caja5"
+}
+.caja {
+    border: 1px solid black;
+}
+.caja1 {
+    grid-area: caja1;
+}
+
+.caja2 {
+    grid-area: caja2;
+}
+
+.caja3 {
+    grid-area: caja3;
+}
+
+.caja4 {
+    grid-area: caja4;
+}
+
+.caja5 {
+    grid-area: caja5;
 }
 
 /* index */
@@ -162,4 +173,37 @@ footer {
 
 /*contacto*/
 
+.titulo {
+    text-align: center;
+    margin: 30px;
+}
+
+form {
+    width: 300px;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 3px;
+    background-color: grey;
+    color: azure;
+}
+
+input,textarea {
+    border: 0;
+    outline: none;
+    width: 260px;
+}
+.field {
+    border: solid 1px #999;
+    padding: 10px;
+    
+}
+
+.field:hover {
+    border-color: blue;
+}
+
+button {
+    text-align: center;
+}
 
