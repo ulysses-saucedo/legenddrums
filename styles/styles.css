@@ -35,7 +35,7 @@ header {
 }
 
 .menu_item a {
-    color: grey;
+    color: burlywood;
     text-decoration: none;
 }
 
@@ -238,11 +238,24 @@ footer{
 
 /*contacto*/
 
+.imagencontacto {
+    height: 100vh;
+    background-image: url(../img/lengend_index.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-
-.titulo {
-    text-align: center;
+.imagencontacto h2 {
+    color: burlywood;
+    background-color: rgba(0, 0, 0, 0.495);
+    padding-inline: 20px;
     margin: 30px;
+    
 }
 
 form {
@@ -250,9 +263,10 @@ form {
     font-size: 16px;
     margin: 0 auto;
     padding: 20px;
+    margin: 50px;
     border-radius: 3px;
-    background-color: grey;
-    color: azure;
+    background-color: burlywood;
+    color: black;
 }
 
 input,textarea {
