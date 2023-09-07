@@ -19,6 +19,7 @@ header {
 .navbar {
     display: flex;
     align-items: center;
+    
 }
 
 .menu {
@@ -28,6 +29,11 @@ header {
     list-style-type: none;
     align-items: center;
     height: 100%;
+    height: 50px;
+}
+
+.menu_item:hover{
+    border: 2px solid burlywood;
 }
 
 .menu_item {
@@ -43,8 +49,20 @@ header {
     text-decoration: underline;
 }
 
+body{
+    background-color: beige;
+}
+
 footer{
-    margin-top: auto;
+    background-color: black;
+    color: burlywood;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    border-top: 2px solid grey;
+    padding: 5px 0;
+    text-align: center;
 }
 
 /* */
@@ -127,7 +145,7 @@ footer{
 
 
 .imagenprincipal {
-    height: 80vh;
+    height: 100vh;
     background-image: url(../img/lengend_index.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,14 +157,14 @@ footer{
 }
 
 .imagenprincipal h2 {
-    color: grey;
+    color: burlywood;
     background-color: rgba(0, 0, 0, 0.619);
     padding-inline: 20px;
     
 }
 
 .imagenprincipal2 {
-    height: 80vh;
+    height: 90vh;
     background-image: url(../img/paiste_index.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,7 +176,7 @@ footer{
 }
 
 .imagenprincipal2 h2 {
-    color: grey;
+    color: burlywood;
     background-color: rgba(0, 0, 0, 0.619);
     padding-inline: 20px;
     
@@ -166,13 +184,13 @@ footer{
 
 /* platillos */
 
-.principio{
+/*.principio{
     padding: 20px;
     margin: 20px;
     align-items: center;
     justify-content: center;
     width: 100%;
-}
+}*/
 
 .container {
     gap: 10px 10px;
@@ -187,37 +205,57 @@ footer{
     "caja4 caja5"
 }
 .box {
-    border: 1px solid black;
-    background-color: aquamarine;
+    border: 2px solid burlywood;
+    border-radius: 5px;
 }
 .box1 {
     grid-area: caja1;
-    background-color: aquamarine;
+    background-color: white;
+    color: burlywood;
     padding: 5px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
 }
 
 .box2 {
     grid-area: caja2;
-    background-color: aquamarine;
+    background-color: white;
+    color: burlywood;
     padding: 5px;
+    margin: 10px 10px 10px 20px;
+    display: grid;
+    place-items: center;
 }
 
 .box3 {
     grid-area: caja3;
-    background-color: aquamarine;
+    background-color: white;
+    color: burlywood;
     padding: 5px;
+    margin: 10px 20px 10px 10px;
+    display: grid;
+    place-items: center;
+    
 }
 
 .box4 {
     grid-area: caja4;
-    background-color: aquamarine;
+    background-color: white;
+    color: burlywood;
     padding: 5px;
+    margin: 10px 10px 10px 20px;
+    display: grid;
+    place-items: center;
 }
 
 .box5 {
     grid-area: caja5;
-    background-color: aquamarine;
+    background-color: white;
+    color: burlywood;
     padding: 5px;
+    margin: 10px 20px 10px 10px;
+    display: grid;
+    place-items: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -232,6 +270,7 @@ footer{
 }
 
 /* nosotros */
+
 
 
 
@@ -264,7 +303,8 @@ form {
     margin: 0 auto;
     padding: 20px;
     margin: 50px;
-    border-radius: 3px;
+    border-radius: 5px;
+    border: solid 2px brown;
     background-color: burlywood;
     color: black;
 }
@@ -275,13 +315,14 @@ input,textarea {
     width: 260px;
 }
 .field {
-    border: solid 1px #999;
+    border: solid 2px brown;
+    border-radius: 5px;
     padding: 10px;
     
 }
 
 .field:hover {
-    border-color: blue;
+    border-color: beige;
 }
 
 button {
