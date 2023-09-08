@@ -271,8 +271,24 @@ footer{
 
 /* nosotros */
 
+.titulo_nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
 
+.parrafos{
+    text-align: left;
+    width: 600px;
+    height: 800px;
+    background-color: burlywood;
+    padding: 10px;
+}
 
+.parrafos p {
+    line-height: 25px;
+}
 
 
 /*contacto*/
