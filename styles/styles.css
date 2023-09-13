@@ -160,15 +160,18 @@ footer{
     text-align: center;
     color: burlywood;
     padding: 3px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 480px) {
     
     .contenedor {
         height: 100vh;
         display: flex;
         flex-direction: column;
+        gap: 75px;
     }
 
     .caja {
@@ -316,6 +319,7 @@ footer{
     }
 }
 
+
 /* nosotros */
 
 .titulo_nosotros{
@@ -326,15 +330,51 @@ footer{
 }
 
 .parrafos{
-    text-align: left;
+    text-align: center;
     width: 600px;
-    height: 800px;
-    background-color: burlywood;
     padding: 10px;
+    margin: 0 auto;
 }
 
 .parrafos p {
     line-height: 25px;
+    color: burlywood;
+}
+
+.seccion{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor_imagen{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    
+}
+
+.imagen_nosotros {
+    width: 100%;
+}
+
+@media screen and (max-width: 480px){
+    
+    .titulo_nosotros{
+        text-align: center;
+    }
+
+    .seccion{
+        height: auto;
+        flex-direction: column;
+    }
+    .parrafos{
+        margin-bottom: 5px;
+    }
+
+    .contenedor_imagen{
+        margin-top: 5px;
+    }
 }
 
 
@@ -390,5 +430,11 @@ input,textarea {
 
 button {
     text-align: center;
+}
+
+@media screen and (max-width: 480px){
+    h2 {
+        text-align: center;
+    }
 }
 
