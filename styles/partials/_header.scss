@@ -1,0 +1,50 @@
+header {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; 
+
+    .empresa{
+        display: flex;
+        align-items: center;
+
+        .logo {
+            width: 100px;
+        }
+
+        h2{
+            color: $mainColor;
+        }
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        
+        .menu {
+            display: flex;
+            gap: 10px;
+            grid-gap: 10px;
+            list-style-type: none;
+            align-items: center;
+            height: 100%;
+            min-height: 50px;
+
+            .menu_item {
+                margin-inline: 10px;
+
+                a {
+                    color: $mainColor;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: $secundaryColor;
+                    }
+                }
+            }
+        
+        }
+    }
+}

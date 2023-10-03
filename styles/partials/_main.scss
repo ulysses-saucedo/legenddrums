@@ -1,0 +1,43 @@
+.imagenprincipal {
+    height: 100vh;
+    background-image: url(../img/lengend_index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        color: burlywood;
+        background-color: rgba(0, 0, 0, 0.619);
+        padding-inline: 20px;
+    }
+}
+
+.separador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: burlywood;
+    margin: 20px 20px;
+}
+
+.imagenprincipal2 {
+    height: 90vh;
+    background-image: url(../img/paiste_index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        color: burlywood;
+        background-color: rgba(0, 0, 0, 0.619);
+        padding-inline: 20px;
+    }
+}

@@ -4,4 +4,169 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Lobster", cursive;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+header .empresa {
+  display: flex;
+  align-items: center;
+}
+header .empresa .logo {
+  width: 100px;
+}
+header .empresa h2 {
+  color: burlywood;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+}
+header .navbar .menu {
+  display: flex;
+  gap: 10px;
+  grid-gap: 10px;
+  list-style-type: none;
+  align-items: center;
+  height: 100%;
+  min-height: 50px;
+}
+header .navbar .menu .menu_item {
+  margin-inline: 10px;
+}
+header .navbar .menu .menu_item a {
+  color: burlywood;
+  text-decoration: none;
+}
+header .navbar .menu .menu_item a:hover {
+  color: beige;
+}
+
+.imagenprincipal {
+  height: 100vh;
+  background-image: url(../img/lengend_index.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.imagenprincipal h2 {
+  color: burlywood;
+  background-color: rgba(0, 0, 0, 0.619);
+  padding-inline: 20px;
+}
+
+.separador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: burlywood;
+  margin: 20px 20px;
+}
+
+.imagenprincipal2 {
+  height: 90vh;
+  background-image: url(../img/paiste_index.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.imagenprincipal2 h2 {
+  color: burlywood;
+  background-color: rgba(0, 0, 0, 0.619);
+  padding-inline: 20px;
+}
+
+.contenedor {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "caja1 caja2" "caja3 caja4" "caja5 caja5";
+}
+.contenedor .caja1 {
+  grid-area: caja1;
+  background-color: beige;
+  color: burlywood;
+  padding: 3px;
+  display: grid;
+  place-items: center;
+}
+.contenedor .caja1 .bata1_descripcion {
+  list-style-position: inside;
+}
+.contenedor .caja2 {
+  grid-area: caja2;
+  background-color: beige;
+  color: burlywood;
+  padding: 3px;
+  display: grid;
+  place-items: center;
+}
+.contenedor .caja2 .bata1_descripcion {
+  list-style-position: inside;
+}
+.contenedor .caja3 {
+  grid-area: caja3;
+  background-color: beige;
+  color: burlywood;
+  padding: 3px;
+  display: grid;
+  place-items: center;
+}
+.contenedor .caja3 .bata1_descripcion {
+  list-style-position: inside;
+}
+.contenedor .caja4 {
+  grid-area: caja4;
+  background-color: beige;
+  color: burlywood;
+  padding: 3px;
+  display: grid;
+  place-items: center;
+}
+.contenedor .caja4 .bata1_descripcion {
+  list-style-position: inside;
+}
+.contenedor .caja5 {
+  grid-area: caja5;
+  background-color: beige;
+  text-align: center;
+  color: burlywood;
+  padding: 3px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contenedor .caja5 .bata1_descripcion {
+  list-style-position: inside;
+}
+
+body {
+  background-color: beige;
+}
+
+footer {
+  background-color: black;
+  color: burlywood;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  border-top: 2px solid grey;
+  padding: 5px 0;
+  text-align: center;
 }/*# sourceMappingURL=estilos.css.map */
