@@ -1,6 +1,12 @@
 body{
     background-color: $secundaryColor;
 }
+.wpp{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 100px;
+}
 
 footer{
     background-color: black;

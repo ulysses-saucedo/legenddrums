@@ -1,0 +1,48 @@
+.imagencontacto {
+    height: 100vh;
+    background-image: url(../img/lengend_index.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2{
+        color: $mainColor;
+        background-color: rgba(0, 0, 0, 0.495);
+        padding-inline: 20px;
+        margin: 30px;
+    }
+}
+form {
+    width: 300px;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 5px;
+    border: solid 2px brown;
+    background-color: $mainColor;
+    color: black;
+}
+
+input,textarea {
+    border: 0;
+    outline: none;
+    width: 260px;
+}
+.field {
+    border: solid 2px brown;
+    border-radius: 5px;
+    padding: 10px;
+
+    &:hover{
+        border-color: $secundaryColor;
+    }
+    
+}
+button {
+    text-align: center;
+}

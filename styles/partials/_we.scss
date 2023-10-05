@@ -1,0 +1,35 @@
+.titulo_nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.seccion{
+    display: flex;
+    flex-direction: row;
+
+    .parrafos{
+        text-align: center;
+        width: 600px;
+        padding: 10px;
+        margin: 0 auto;
+
+        p{
+            line-height: 25px;
+            color: $mainColor;
+
+        }
+    }
+    .contenedor_imagen{
+        width: 75vw;
+        max-width: 1000px;
+        min-width: 320px;
+        margin: auto;
+
+        .imagen_nosotros {
+            width: 100%;
+        }
+        
+    }
+}
